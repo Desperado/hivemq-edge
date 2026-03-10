@@ -4,7 +4,7 @@
     "dockerfilePath": "Dockerfile"
   },
   "deploy": {
-    "startCommand": "/opt/hivemq/docker-entrypoint.sh /opt/hivemq/bin/run.sh",
+    "startCommand": "/opt/docker-entrypoint.sh /opt/hivemq/bin/run.sh",
     "healthcheckPath": "/api/v1/health",
     "healthcheckTimeout": 30,
     "restartPolicyType": "ON_FAILURE",
